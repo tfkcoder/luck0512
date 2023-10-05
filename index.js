@@ -23,9 +23,9 @@ async function generateGitHubStats() {
     const markdownContent = `
       ## GitHub Stats
 
-      - Name: ${stats.name}
+      - My name: ${stats.name}
       - Username: ${stats.username}
-      - Followers: ${stats.followers}
+      - To: ${stats.followers}
       - Following: ${stats.following}
       - Stars: ${stats.stars}
       - Contributions: ${stats.contributions}

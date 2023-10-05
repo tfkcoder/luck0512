@@ -1,4 +1,10 @@
-- 👋 Hi, I’m @tfkcodes
-- 👀 I’m interested in coding and graphics design
-- 🌱 I’m currently learning flutter and react for programming web and android/ios applications
-- 📫 How to reach me ...
+
+      ## GitHub Stats
+
+      - Name: Luciano Jackson
+      - Username: tfkcodes
+      - Followers: 1
+      - Following: 11
+      - Stars: 8
+      - Contributions: undefined
+    
