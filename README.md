@@ -1,13 +1,10 @@
+<!-- GitHub Stat Cards -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tfkcodes&show_icons=true&theme=dark" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tfkcodes&layout=compact&theme=dark" alt="Top Languages" />
+</div>
 
-      # Hi there! 👋
-
-      Welcome to my GitHub profile! I'm passionate about coding and ui/ux.
-
-      ## GitHub Stats
-
-      <!-- GitHub Stats Card -->
-      ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=tfkcodes)
-
-      <!-- Additional Custom Cards -->
-      <!-- Insert more cards here for additional statistics -->
-    
+<!-- GitHub Contribution Chart -->
+<div align="center">
+  <img src="https://github.com/tfkcodes&show_icons=true&theme=dark" alt="GitHub Contribution Chart" />
+</div>
