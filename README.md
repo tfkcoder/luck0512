@@ -1,4 +1,8 @@
 <!-- GitHub Stat Cards -->
+# Hello, I'm tfkcodes! 👋
+
+Welcome to my GitHub profile. I'm passionate about coding and creating delightful user experiences through UI/UX design. 
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tfkcodes&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&hide=issues,contribs&theme=dark">
 
