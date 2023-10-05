@@ -1,11 +1,13 @@
 
+      # Hi there! 👋
+
+      Welcome to my GitHub profile! I'm passionate about coding and open source.
+
       ## GitHub Stats
 
-      - Name: Luciano Jackson
-      - Username: tfkcodes
-      - Followers: 1
-      - Following: 11
-      - Stars: 8
-      - Contributions: undefined
-      - Total Commits: 27
+      <!-- GitHub Stats Card -->
+      ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=Yourusername)
+
+      <!-- Additional Custom Cards -->
+      <!-- Insert more cards here for additional statistics -->
     
