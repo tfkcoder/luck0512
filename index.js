@@ -6,8 +6,18 @@ const writeFileAsync = promisify(fs.writeFile);
 async function generateGitHubStats() {
   try {
     // Make API requests to fetch GitHub statistics
-    const response = await axios.get('https://api.github.com/users/tfkcodes');
-    const userData = response.data;
+    const userResponse = await axios.get('https://api.github.com/users/tfkcodes');
+    const reposResponse = await axios.get('https://api.github.com/users/tfkcodes/repos');
+
+    const userData = userResponse.data;
+    const reposData = reposResponse.data;
+
+    // Calculate the total number of commits
+    let totalCommits = 0;
+    for (const repo of reposData) {
+      const commitsResponse = await axios.get(repo.commits_url.replace('{/sha}', ''));
+      totalCommits += commitsResponse.data.length;
+    }
 
     // Customize the statistics you want to display
     const stats = {
@@ -17,18 +27,20 @@ async function generateGitHubStats() {
       following: userData.following,
       stars: userData.public_repos,
       contributions: userData.contributions,
+      totalCommits: totalCommits,
     };
 
     // Generate the markdown content for your README
     const markdownContent = `
       ## GitHub Stats
 
-      - My name: ${stats.name}
+      - Name: ${stats.name}
       - Username: ${stats.username}
-      - To: ${stats.followers}
+      - Followers: ${stats.followers}
       - Following: ${stats.following}
       - Stars: ${stats.stars}
       - Contributions: ${stats.contributions}
+      - Total Commits: ${stats.totalCommits}
     `;
 
     // Write the markdown content to the README.md file
@@ -41,4 +53,3 @@ async function generateGitHubStats() {
 }
 
 generateGitHubStats();
-

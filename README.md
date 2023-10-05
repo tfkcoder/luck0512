@@ -7,4 +7,5 @@
       - Following: 11
       - Stars: 8
       - Contributions: undefined
+      - Total Commits: 27
     
