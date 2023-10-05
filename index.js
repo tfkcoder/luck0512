@@ -6,7 +6,7 @@ const writeFileAsync = promisify(fs.writeFile);
 async function generateGitHubStats() {
   try {
     // Make API requests to fetch GitHub statistics
-    const userResponse = await axios.get('https://api.github.com/users/yourusername');
+    const userResponse = await axios.get('https://api.github.com/users/tfkcodes');
 
     // Customize the statistics you want to display
     const stats = {
@@ -22,7 +22,7 @@ async function generateGitHubStats() {
       ## GitHub Stats
 
       <!-- GitHub Stats Card -->
-      ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=${stats.tfkcodes})
+      ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=${stats.username})
 
       <!-- Additional Custom Cards -->
       <!-- Insert more cards here for additional statistics -->
