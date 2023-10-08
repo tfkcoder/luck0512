@@ -1,7 +1,9 @@
 
       # Hi there! am luciano jackson (tfkcodes)👋
 
-<p align="center">
-  <img src ="https://github-readme-stats.vercel.app/api?username=tfkcodes&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&hide=issues,contribs">
-  <img src ="https://github-readme-stats.vercel.app/api/top-langs/?username=tfkcodes&layout=compact&hide_border=true&langs_count=4&hide=html,css">
-</p>
+<div align="center">
+  
+![tfkcodes's GitHub stats](https://github-readme-stats.vercel.app/api?username=tfkcodes&count_private=true&show_icons=true&hide_border=true&border_radius=30&theme=transparent&layout=compact)
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=tfkcodes&theme=transparent&hide_border=true&border_radius=30)](https://git.io/streak-stats)
+</div>
