@@ -8,6 +8,4 @@
       <!-- GitHub Stats Card -->
       ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=tfkcodes)
 
-      <!-- Additional Custom Cards -->
-      <!-- Insert more cards here for additional statistics -->
     
