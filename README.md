@@ -25,9 +25,10 @@
 
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="figma" alt="figma" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/xd/xd-original.svg" title="Adobe XD" alt="Adobe XD" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/xd/xd-line.svg" title="Adobe XD" alt="Adobe XD" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/photoshop/photoshop-line.svg" title=" Adobe Photoshop" alt="Adobe Photoshop" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/illustrator/illustrator-line.svg" title="Adobe illustrator" alt="Adobe illustrator" width="40" height="40"/>&nbsp;
+   <img src="https://github.com/devicons/devicon/blob/master/icons/aftereffects/aftereffects-original.svg" title="Adobe After effects" alt="Adobe After effects" width="40" height="40"/>&nbsp;
 </div>
 
 
