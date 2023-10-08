@@ -2,6 +2,7 @@ const fs = require('fs');
 const axios = require('axios');
 const { promisify } = require('util');
 const writeFileAsync = promisify(fs.writeFile);
+const readFileAsync = promisify(fs.readFile);
 
 async function generateGitHubStats() {
   try {
@@ -13,23 +14,22 @@ async function generateGitHubStats() {
       username: userResponse.data.login,
     };
 
-    // Generate the markdown content for your README
-    const markdownContent = `
-      # Hi there! 👋
+    // Read the existing content of the README.md file
+    const existingReadmeContent = await readFileAsync('README.md', 'utf8');
 
-      Welcome to my GitHub profile! I'm passionate about coding and ui/ux.
+    // Generate the markdown content for the new UI/UX statistics card
+    const uiUxCard = `
+      ## UI/UX Statistics
 
-      ## GitHub Stats
-
-      <!-- GitHub Stats Card -->
-      ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=${stats.username})
-
-      <!-- Additional Custom Cards -->
-      <!-- Insert more cards here for additional statistics -->
+      <!-- UI/UX Card -->
+      <!-- You can add your UI/UX statistics card here -->
     `;
 
-    // Write the markdown content to the README.md file
-    await writeFileAsync('README.md', markdownContent);
+    // Combine the existing content and the new UI/UX card
+    const updatedReadmeContent = existingReadmeContent.replace('<!-- Additional Custom Cards -->', uiUxCard);
+
+    // Write the combined markdown content back to the README.md file
+    await writeFileAsync('README.md', updatedReadmeContent);
 
     console.log('GitHub Stats updated successfully!');
   } catch (error) {
