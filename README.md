@@ -21,6 +21,16 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/>&nbsp;
 </div>
 
+### :hammer_and_wrench: UI/UX  Tools :
+
+<div align="center">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="figma" alt="figma" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/xd/xd-original.svg" title="Adobe XD" alt="Adobe XD" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/photoshop/photoshop-line.svg" title=" Adobe Photoshop" alt="Adobe Photoshop" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/illustrator/illustrator-line.svg" title="Adobe illustrator" alt="Adobe illustrator" width="40" height="40"/>&nbsp;
+</div>
+
+
 ---
 
 ### :fire: My Stats :
