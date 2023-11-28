@@ -11,8 +11,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tfkcodes&label=Profile%20views&color=0e75b6&style=flat" alt="tfkcodes" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tfkcodes" alt="tfkcodes" /></a> </p>
-[![tfkcodes's GitHub stats]
-(https://github-readme-stats.vercel.app/api?username=tfkcodes&count_private=true&show_icons=true&hide_border=true&border_radius=30&theme=transparent&layout=compact)]
+![tfkcodes's GitHub stats](https://github-readme-stats.vercel.app/api?username=tfkcodes&count_private=true&show_icons=true&hide_border=true&border_radius=30&theme=transparent&layout=compact)
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=tfkcodes&theme=transparent&hide_border=true&border_radius=30)]
 
