@@ -43,4 +43,10 @@
    <img src="https://github.com/devicons/devicon/blob/master/icons/aftereffects/aftereffects-original.svg" title="Adobe After effects" alt="Adobe After effects" width="40" height="40"/>&nbsp;
 </div>
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tfkcodes&show_icons=true&locale=en&layout=compact" alt="zainwen9" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tfkcodes&show_icons=true&locale=en" alt="tfkcodes" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tfkcodes&" alt="zainwen9" /></p>
+
 ---
