@@ -5,8 +5,6 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tfkcodes&show_icons=true&locale=en&layout=compact" alt="zainwen9" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tfkcodes&show_icons=true&locale=en" alt="tfkcodes" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tfkcodes&" alt="tfkcodes" /></p>
 
 ---
